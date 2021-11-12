@@ -1,0 +1,72 @@
+.card {
+  max-width: 300px;
+  min-height: 400px;
+  line-height: 40px;
+}
+
+.card .card-header {
+  background: none;
+  font-weight: bold;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card .list-group .list-group-item {
+  border: 0;
+}
+.card .list-group .list-group-item:first-child {
+  margin-top: 15px;
+}
+
+.card .list-group .list-group-item:hover,
+.card .list-group .list-group-item:focus,
+.card .list-group .list-group-item:active,
+.card .list-group .list-group-item:visited,
+.card .list-group .active {
+  border-left: 5px solid black;
+  font-weight: bold;
+}
+
+.cmp-floating-menu--mobile {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 40px;
+}
+
+.cmp-floating-menu--mobile .btn:focus,
+.cmp-floating-menu--mobile .btn:active {
+  outline: none !important;
+  box-shadow: 0 10px 10px #333;
+}
+
+@media (max-width: 767px) {
+  .dropdown-menu {
+    right: 0;
+    border: 0;
+    width: 100%;
+  }
+  .dropdown {
+    position: relative;
+  }
+}
+
+.dropdown .dropdown-menu {
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cmp-floating-menu--mobile .dropdown-toggle::after {
+  margin-left: 3.255em;
+}
+
+.cmp-floating-menu--mobile .dropdown-toggle {
+  text-align: left;
+}
+
+.fixedElement {
+  position: fixed;
+
+  width: 100%;
+  z-index: 100;
+}
